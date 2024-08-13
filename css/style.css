@@ -633,6 +633,10 @@ p {
     width: 100vw;
 }
 
+.about_exhibitors p {
+    white-space: nowrap;
+}
+
 .about_exhibitors_main {
     max-width: 960px;
     margin: 0 auto;
@@ -1079,7 +1083,7 @@ p {
     position: absolute;
     top: 35px;
     left: 159px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 60px;
 }
 
@@ -1274,7 +1278,6 @@ p {
 }
 
 .question_text a{
-    text-decoration: none;
     color: #000000;
 }
 
@@ -1551,6 +1554,16 @@ footer {
 
     .exhibitors {
         padding: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    .exhibitors p{
+        padding-bottom: 12px;
+    }
+
+    .exhibitors2 {
+        padding: 0;
     }
 
     .about_exhibitors_main {
@@ -2698,42 +2711,24 @@ footer {
         padding: 18px 0px 0px 0px;
         font-size: 14px;
         line-height: 24px;
+        display: block;
+        text-align: center;
     }
 
     .exhibitors1 {
-        padding: 0px 0px 0px 55px;
-        width: 143px;
-    }
-
-    .exhibitors1 p{
-        padding-bottom: 30px;
+        padding: 0px;
+        width: auto;
     }
 
     .exhibitors2 {
-        padding: 0px 0px 0px 9px;
-        width: 143px;
-    }
-
-    .exhibitors2 p{
-        padding-bottom: 30px;
-    }
-
-    .exhibitors_ramen {
-        padding-top: 24px;
-    }
-
-    .exhibitors_lifecoach {
-        padding-top: 24px;
-    }
-
-    .exhibitors_sportslife {
-        padding-bottom: 6px!important;
+        padding: 0px;
+        width: auto;
     }
 
     .about_exhibitors_annotation {
         padding: 0px 0px 0px 0px;
         font-size: 14px;
-        /* text-align: right; */
+        text-align: right;
     }
 
     .time-schedule {
