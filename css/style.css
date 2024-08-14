@@ -1382,6 +1382,7 @@ footer {
 @media screen and (max-width: 960px) and (min-width: 391px) {
     .title_en {
         padding: 80px 0px 0px 0px;
+        font-size: 50px;
     }
     
     .title_ja {
@@ -3167,7 +3168,7 @@ footer {
     }
 
     .faq3 {
-        display: none;
+        margin: 29px 0px 0px 39px;
     }
 
     .footer_main {
